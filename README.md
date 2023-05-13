@@ -9,4 +9,56 @@ Aclaraciones:
 ## aproximacion a caso de uso
 ![image](https://github.com/XkindredX/ejercicio1.github.io/assets/132966410/42324996-86a1-48c0-afea-0217e1f0f56d)
 ## diagrama de flujo de datos
+![image](https://github.com/XkindredX/ejercicio1.github.io/assets/132966410/5f55b664-80ca-4c11-9af4-c240e281d8b2)
 ## pseudocodigo
+  ### Definir j1 Como Caracter
+  ### Definir j2 Como Caracter
+	Definir j3 Como Caracter
+	Definir j4 Como Caracter
+	Definir v1 Como Caracter
+	Definir v2 Como Caracter
+	Definir v3 Como Caracter
+	Definir v4 Como Caracter
+	Escribir 'Digite el nombre de los 4 video juegos'
+	Leer j1
+	Leer j2
+	Leer j3
+	Leer j4
+	Escribir 'Digite el numero de ejemplares vendidos de '+j1
+	Leer v1
+	Escribir 'Digite los ejemplares vendidos del juego '+j2
+	Leer v2
+	Escribir 'Digite los ejemplares vendidos del juego '+j3
+	Leer v3
+	Escribir 'Digite los ejemplares vendidos del juego '+j4
+	Leer v4
+	Si v1>v2 Y v1>v3 Y v1>v4 Entonces
+		Escribir 'el juego mas vendido es '+j1
+	SiNo
+		Si v2>v1 Y v2>v3 Y v2>v4 Entonces
+			Escribir 'el juego mas vendido es '+j2
+		SiNo
+			Si v3>v1 Y v3>v2 Y v3>v4 Entonces
+				Escribir 'el juego mas vendido es '+j3
+			SiNo
+				Si v4>v1 Y v4>v2 Y v4>v3 Entonces
+					Escribir 'el juego mas vendido es '+j4
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+	Si v1<v2 Y v1<v3 Y v1<v4 Entonces
+		Escribir 'el juego menos vendido es '+j1
+	SiNo
+		Si v2<v1 Y v2<v3 Y v2<v4 Entonces
+			Escribir 'el juego menos vendido es '+j2
+		SiNo
+			Si v3<v1 Y v3<v2 Y v3<v4 Entonces
+				Escribir 'el juego menos vendido es '+j3
+			SiNo
+				Si v4<v1 Y v4<v2 Y v4<v3 Entonces
+					Escribir 'el juego menos vendido es '+j4
+				FinSi
+			FinSi
+		FinSi
+	FinSi
