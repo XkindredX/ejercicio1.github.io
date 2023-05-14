@@ -1,5 +1,5 @@
 # Ejercicio venta de video juegos
-### En su labor como programador de software ha sido elegido para el desarrollo de una aplicación que necesita un vendedor de video juegos, que desea calcular el promedio de video juegos vendidos por cantidad de meses. Este negocio evalúa la venta video juegos de forma permanente y calcula el promedio general de las ventas.
+### En su labor como programador de software ha sido elegido para el desarrollo de una aplicación que necesita un vendedor de video juegos, que desea calcular el promedio de video juegos vendidos por precio de 3 juegos. Este negocio evalúa la venta video juegos de forma permanente y calcula el promedio general de las ventas.
 Aclaraciones:
 * Se supondrá que la aplicación solo se requiere para calcular el promedio de un único periodo especifico.
 * Para efectos de mantener la simplicidad del ejemplo no se contemplan manejar persistencia en el almacenamiento de los datos.
